@@ -26,4 +26,3 @@ function doWhileLoop(array){
     while (maybeTrue()); 
       array.shift();
 }
-  return array;*/
