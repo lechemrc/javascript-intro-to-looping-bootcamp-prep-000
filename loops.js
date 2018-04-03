@@ -23,6 +23,6 @@ function doWhileLoop(array){
   do {
     console.log(array);
   }
-    while (maybeTrue()); 
+    while (array.length > 0 && maybeTrue()); 
       array.shift();
 }
