@@ -19,7 +19,7 @@ function whileLoop(n, spy) {
   return spy; 
 }
 
-function doWhileLoop(array, l){
+function doWhileLoop(array){
   do {
     array.pop();
   }
