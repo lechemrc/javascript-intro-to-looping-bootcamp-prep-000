@@ -15,17 +15,16 @@ function whileLoop(n, spy) {
     n--;
     console.log(spy);
   }
-  spy = 'done'
+  spy = 'done';
   return spy; 
 }
 
 function doWhileLoop(array){
   do {
     console.log(array);
-    while (maybeTrue());
+    while (maybeTrue()); {
       array.shift();
+    }
   }
   return array;
 }
-}
-
