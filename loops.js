@@ -21,9 +21,8 @@ function whileLoop(n, spy) {
 
 function doWhileLoop(array, l){
   do {
-    console.log(array);
+    array.pop();
   }
-    while (array.length > 0 && maybeTrue()); 
-      array.pop();
+    while (array.length > 0 && maybeTrue());
       return array; 
 }
