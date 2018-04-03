@@ -20,11 +20,9 @@ function whileLoop(n, spy) {
 }
 
 function doWhileLoop(array, l){
-  function maybeTrue(){
-    do {
-      array.pop();
-    }
-      while (array.length > 0 && maybeTrue());
-        return array; 
+  do {
+    array.pop();
   }
+    while (array.length > 0 && maybeTrue());
+      return array; 
 }
