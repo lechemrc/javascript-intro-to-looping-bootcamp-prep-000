@@ -19,11 +19,11 @@ function whileLoop(n, spy) {
   return spy; 
 }
 
-function doWhileLoop(array){
+/*function doWhileLoop(array){
   do {
     console.log(array);
   }
     while (maybeTrue()); 
       array.shift();
   }
-  return array;
+  return array;*/
